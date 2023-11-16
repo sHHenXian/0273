@@ -1,0 +1,24 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.06-1
+//Part Number: GW2AR-LV18QN88PC7/I6
+//Device: GW2AR-18C
+//Created Time: Fri 12 09 11:01:11 2022
+
+IO_LOC "usb_dxp_io" 73,72;
+IO_PORT "usb_dxp_io" PULL_MODE=NONE DRIVE=4;
+IO_LOC "LED" 13;
+IO_PORT "LED" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "usb_pullup_en_o" 80;
+IO_PORT "usb_pullup_en_o" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "usb_term_dn_io" 74;
+IO_PORT "usb_term_dn_io" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "usb_term_dp_io" 75;
+IO_PORT "usb_term_dp_io" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "usb_rxdn_i" 71;
+IO_PORT "usb_rxdn_i" IO_TYPE=LVDS25 PULL_MODE=NONE;
+IO_LOC "usb_rxdp_i" 77;
+IO_PORT "usb_rxdp_i" IO_TYPE=LVDS25 PULL_MODE=NONE;
+IO_LOC "CLK_IN" 10;
+IO_PORT "CLK_IN" IO_TYPE=LVCMOS33 PULL_MODE=UP;
